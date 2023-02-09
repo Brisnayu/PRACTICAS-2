@@ -5,3 +5,5 @@
 - Una vez guardado, aparece una M, de que el archivo está siendo modificado y no está guardaro.
 - Importante, cada una de las ramas debe estar bien identificada.
 - Tenemos que movernos entre las ramas.
+- Se debe comunicar github con nuestro ordenador, así podemos ir "guardando la partida" y acceder a nuestra información así estemos en otro ordenador.
+- Desde github también podemos compartir la información con alguna otra persona, para que pueda revisar nuestro código y darnos sugerencias. 
