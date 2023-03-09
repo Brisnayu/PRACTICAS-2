@@ -1,0 +1,25 @@
+.container-gallery {
+    background-image: linear-gradient(to right top, #16c1e7, #54cae2, #78d3de, #98dbdd, #b4e3df, #b3ded8, #b2d8d1, #b1d3ca, #94c0b5, #78aea1, #5a9b8d, #3a897a);
+    width: 280px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container-gallery > * {
+    padding: 0 1rem;
+    text-align: center;
+    margin: 0.1rem;
+}
+
+#adoption-block {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}

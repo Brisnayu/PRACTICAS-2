@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./form.css">
+
+</head>
+
+<body>
+    
+    <header></header>
+    <main>
+        <h2>Tablero de Adopción</h2>
+        <div id="adoption-block">
+          <!-- aqui van las fotos! -->  
+        </div>
+    </main>
+
+    <section class="first-section">
+
+        <div class="contacts">
+
+            <h2>CONTACTANOS</h2>
+
+            <article id="contacts-container">
+                <!-- aquí van los contactos -->
+            </article>
+        </div>
+
+
+        <form id="request-form">
+            <input type="text" placeholder="Introduce tu nombre" name="name" />
+            <input type="text" placeholder="Introduce tu ubicación" name="location" />
+            <input type="email" placeholder="Introduce tu email" name="email" />
+            <input type="tel" placeholder="Introduce tu número de contacto" name="number">
+            <textarea name="messege" id="messege" cols="30" rows="10" placeholder="Introduce la razón por la que quieres adoptar"></textarea>
+
+            <button type="submit">Enviar solicitud</button>
+        </form> 
+
+    </section>
+    
+
+    <section class="second-section">
+        <h2>Listado de solicitudes</h2>
+            <div id="request-list">
+                <!-- aquí voy a ir introduciendo mis solicitudes -->
+            </div>
+    </section>
+
+
+    
+
+<script src="./main.js"></script>
+<script src="./form.js"></script>
+</body>
+
+</html>
