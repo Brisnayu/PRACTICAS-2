@@ -1,13 +1,20 @@
 .container-gallery {
-    background-image: linear-gradient(to right top, #16c1e7, #54cae2, #78d3de, #98dbdd, #b4e3df, #b3ded8, #b2d8d1, #b1d3ca, #94c0b5, #78aea1, #5a9b8d, #3a897a);
+    /* background-image: linear-gradient(to right top, #16c1e7, #54cae2, #78d3de, #98dbdd, #b4e3df, #b3ded8, #b2d8d1, #b1d3ca, #94c0b5, #78aea1, #5a9b8d, #3a897a); */
     width: 280px;
     height: 420px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 1.5rem;
-    border-radius: 20px;
+    padding: 0.8rem;
+    /* border-radius: 8px; */
     overflow: hidden;
+    /* border: 5px solid var(--color-details-and-button); */
+    background-color: var(--color-letter-and-background);
+   
+    -webkit-box-shadow: 10px 16px 18px 0px rgba(0,0,0,0.23);
+    -moz-box-shadow: 10px 16px 18px 0px rgba(0,0,0,0.23);
+    box-shadow: 10px 16px 18px 0px rgba(0,0,0,0.23);
+    border: 0px solid #f6fcfb;
 }
 
 .container-gallery > * {
@@ -22,4 +29,9 @@
     gap: 1.5rem;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+main h2 {
+    width: 100%;
+    text-align: center;
 }

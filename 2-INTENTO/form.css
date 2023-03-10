@@ -1,5 +1,33 @@
 /* STYLES FIRST SECTION */
 
+.first-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.container-contacts {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.container-contacts img {
+    width: 2rem;
+}
+
+.first-section h2 {
+    border-bottom: none;
+}
+
 form {
     border-radius: 30px;
     margin: 0;
@@ -10,7 +38,7 @@ form {
 
 form {
     border-radius: 30px;
-    background-color: rgb(230, 146, 146);
+    /* background-color: rgb(230, 146, 146); */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -24,9 +52,10 @@ form input, textarea {
     padding: 10px 10px;
     border-radius: 30px;
     margin: 0 10px 0 10px;
-    display: inline-block;
-    color: black;
+    /* display: inline-block; */
+    color: var(--background-color-dark);
     background-size: 100% 2px;
+    align-items: center;
 }
 
 
@@ -34,17 +63,56 @@ button[type="submit"]{
     width: 10rem;
     height: 3rem;
     margin-top: 0.5rem;
-    border: 1px solid #fff;
+    border: 0;
     border-radius: 30px;
-    color: white;
-    background-color: var(--typography-color-constraste);
+    color: var(--color-letter-and-background);
+    background-color: var(--color-details-and-button);
 }
 
 button[type="submit"]:hover{
 	cursor: pointer;
-    background-color: var(--typography-color-logo);
+    background-color: var(--color3);
     transition-duration: 2s;
 }
 
 /* STYLES SECOND SECTION */
 
+.second-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 80%;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+#request-list {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.request-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    border: 0.2rem solid var(--color2);
+    background-color: var(--color-letter-and-background);
+    width: 20rem;
+}
+
+@media screen and (max-width: 1000px) {
+
+    form {
+        width: 100%;
+    }
+    
+}

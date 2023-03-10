@@ -58,7 +58,7 @@ const getAdoptionBoard = (photo, pet, year, desc) => {
             <h3>${pet}</h3>
             <p>${year}</p>
             <p>${desc}</p>
-        <div/>
+        </div>
         `;
 };
 

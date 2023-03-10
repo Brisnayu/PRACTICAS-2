@@ -4,8 +4,10 @@
     --color1: #16C1E7;
     --color2: #D7EDE7;
     --color3: #3A897A;
-    
-
+    --background-color-light: #7ad1c5;
+    --background-color-dark: #0c0d10;
+    --color-letter-and-background: #f6fcfb;
+    --color-details-and-button: #f45659;
 }
 
 * {
@@ -18,7 +20,8 @@
 }
 
 body {
-    /* background-image: linear-gradient(to right top, #16c1e7, #54cae2, #78d3de, #98dbdd, #b4e3df, #b3ded8, #b2d8d1, #b1d3ca, #94c0b5, #78aea1, #5a9b8d, #3a897a); */
+    background-image: linear-gradient(to right top, #16c1e7, #54cae2, #78d3de, #98dbdd, #b4e3df, #b3ded8, #b2d8d1, #b1d3ca, #94c0b5, #78aea1, #5a9b8d, #3a897a);
+    /* background-color: var(--background-color-light); */
     color: black;
     display: flex;
     flex-direction: column;
@@ -37,8 +40,10 @@ main > * {
 }
 
 h2 {
-    color: var(--color3);
+    color: black;
     font-size: 2rem;
+
+    border-bottom: 0.2rem solid var(--color-details-and-button);
 }
 
 h3 {
@@ -46,6 +51,12 @@ h3 {
     font-size: 1.2rem;
 }
 
+h4 {
+    color: var(--color-details-and-button);
+    font-size: 0.8rem;
+}
+
 p {
     font-size: 0.6rem;
+    text-align: start;
 }
