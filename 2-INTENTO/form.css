@@ -116,3 +116,10 @@ button[type="submit"]:hover{
     }
     
 }
+
+@media screen and (max-width: 320px) {
+    .request-block {
+        width: 100%;
+    }
+    
+}
